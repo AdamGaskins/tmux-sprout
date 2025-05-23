@@ -30,7 +30,7 @@ For example, when doing web dev, I often have a window for neovim, a window to r
 
 ## Installation
 
-No binaries are provided. Compiling with [Meson](https://mesonbuild.com/SimpleStart.html) is very easy.
+No binaries are provided. Compiling with [Meson](https://mesonbuild.com/SimpleStart.html) is straightforward.
 
 Tested on macOS. Theoretically works on Linux.
 
@@ -67,8 +67,8 @@ Configuration is looked for at:
 # Create a new entry in the projects array for each project
 
 [[projects]]
-name = "My project"                 # The name of the tmux session
-folder = "/Users/adam/file"         # The full path to the folder
+name = "My Project"                 # The name of the tmux session
+folder = "/Users/adam/my-project"         # The full path to the folder
 tabs.shell = ""                     # Opens a window named "shell"
 
 [[projects]]
